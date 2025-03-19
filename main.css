@@ -94,3 +94,16 @@ article {
     max-height: 700px;
     overflow-y: auto;
 }
+
+/* classes */
+.container {
+    display: block;
+
+    margin-top: 25px;
+    padding: 15px;
+
+    color: black;
+    background-color: white;
+
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.103);
+}
