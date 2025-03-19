@@ -71,14 +71,6 @@ article {
 }
 
 /* containers */
-#mainWrapper {
-    display: block;
-
-    margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
 #containerIntroArticles {
     display: flex;
     flex-direction: row;
@@ -106,4 +98,12 @@ article {
     background-color: white;
 
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.103);
+}
+
+.mainWrapper {
+    display: block;
+
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
