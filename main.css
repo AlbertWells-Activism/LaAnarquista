@@ -1,35 +1,109 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>La Anarquista</title>
-    <link rel="stylesheet" href="https://albertwells-activism.github.io/LaAnarquista/homepage.css">
-    <link rel="icon" type="image/x-icon" href="https://albertwells-activism.github.io/LaAnarquista/img/AntifaLogo64x64.png">
-</head>
+/* elements */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
 
-<body>
-    <div id="banner">
-        <img src="https://albertwells-activism.github.io/LaAnarquista/img/AntifaLogo.png">
-        <i><h4 style="letter-spacing: 5px;">Sin Censura, Sin Cadenas</h4></i>
-    </div>
+    background-color: rgb(238, 238, 238);
+}
 
-    <div class="mainWrapper">
-        <div id="containerIntroArticles">
-            <div id="intro" style="margin-bottom: 50px; margin-top: 50px;">
-                <h2>Blog político escrito por [Anónimo].</h2>
-                <p style="margin-top: 25px;"><h4>
-                    Mi propósito es difundir conciencia sobre la ideología anarco-sindicalista y exponer temas anti-estatistas.
-                    Aquí publicaré redacciones y noticias escritas por otras organizaciones.</p>
-                    <p>Me puedes contactar a través de <a href="mailto:albertwells.anarquista@gmail.com">albertwells.anarquista@gmail.com</a>.</p>
-                </h4></p>
-            </div>
+article {
+    display: block;
 
-            <div id="gridContainerArticles">
+    padding: 15px;
+    padding-top: 5px;
 
-            </div>
-        </div>
-    </div>
-</body>
+    color: black;
+    background-color: white;
 
-</html>
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.103);
+}
+
+/* individual elements */
+#intro {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    max-width: 400px;
+}
+
+/* banner */
+#banner {
+    outline: 0;
+    border: 0;
+    margin: 0;
+    padding: 0;
+
+    background-color: black;
+}
+
+#banner h4 {
+    display: inline-block;
+    vertical-align: middle;
+    
+    outline: 0;
+    border: 0;
+    margin: 0;
+    padding: 0;
+
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 56px;
+    vertical-align: center;
+
+    margin-left: 10px;
+}
+
+#banner img {
+    display: inline-block;
+    vertical-align: middle;
+
+    outline: 0;
+    border: 0;
+    margin: 0;
+    padding: 0;
+
+    width: 70px;
+    height: auto;
+}
+
+/* containers */
+#containerIntroArticles {
+    display: flex;
+    flex-direction: row;
+    
+    gap: 50px;
+}
+
+#gridContainerArticles {
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+    max-height: 700px;
+    overflow-y: auto;
+}
+
+/* classes */
+.container {
+    display: block;
+
+    margin-top: 25px;
+    padding: 15px;
+
+    color: black;
+    background-color: white;
+
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.103);
+}
+
+.mainWrapper {
+    display: block;
+
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
