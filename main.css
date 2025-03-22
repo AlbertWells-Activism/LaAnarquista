@@ -7,6 +7,10 @@ body {
     background-color: rgb(238, 238, 238);
 }
 
+h1 {
+    text-align: center;
+}
+
 article {
     display: block;
 
@@ -91,8 +95,14 @@ article {
 .container {
     display: block;
 
+    margin: 0 auto;
     margin-top: 25px;
+    
+    padding-bottom: 25px;
+    padding-top: 25px;
     padding: 15px;
+
+    max-width: fit-content;
 
     color: black;
     background-color: white;
@@ -106,4 +116,21 @@ article {
     margin-top: 50px;
     margin-left: 50px;
     margin-right: 50px;
+}
+
+.newspaper {
+    margin: 0 auto;
+
+    column-count: 2;
+    column-gap: 40px;
+    max-width: 700px;
+}
+/* text */
+.subtitle {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    text-align: center;
+    font-style: italic;
+    color: gray;
 }
