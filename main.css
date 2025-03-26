@@ -1,14 +1,3 @@
-/* @media */
-@media (max-width: 600px) {
-    #containerIntroArticles {
-      flex-direction: column;
-    }
-    
-    .newspaper {
-        column-count: 1;
-    }
-}
-
 /* elements */
 body {
     margin: 0;
@@ -95,6 +84,12 @@ article {
     gap: 50px;
 }
 
+@media (max-width: 600px) {
+    #containerIntroArticles {
+      flex-direction: column;
+    }
+}
+
 #gridContainerArticles {
     display: flex;
     flex-direction: column;
@@ -136,6 +131,13 @@ article {
     column-gap: 40px;
     max-width: 700px;
 }
+
+@media (max-width: 600px) {
+    .newspaper {
+      column-count: 1;
+    }
+}
+
 /* text */
 .subtitle {
     margin-top: 0;
