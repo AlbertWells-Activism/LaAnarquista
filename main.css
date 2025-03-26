@@ -84,12 +84,6 @@ article {
     gap: 50px;
 }
 
-@media (max-width: 600px) {
-    #containerIntroArticles {
-      flex-direction: column;
-    }
-}
-
 #gridContainerArticles {
     display: flex;
     flex-direction: column;
@@ -139,4 +133,15 @@ article {
     text-align: center;
     font-style: italic;
     color: gray;
+}
+
+/* @media */
+/* @media */
+@media (max-width: 600px) {
+    #containerIntroArticles {
+      flex-direction: column;
+    }
+    .newspaper {
+        column-count: 1;
+    }
 }
