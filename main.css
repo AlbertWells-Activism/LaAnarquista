@@ -1,3 +1,14 @@
+/* @media */
+@media (max-width: 600px) {
+    #containerIntroArticles {
+      flex-direction: column;
+    }
+    
+    .newspaper {
+        column-count: 1;
+    }
+}
+
 /* elements */
 body {
     margin: 0;
@@ -133,15 +144,4 @@ article {
     text-align: center;
     font-style: italic;
     color: gray;
-}
-
-/* @media */
-/* @media */
-@media (max-width: 600px) {
-    #containerIntroArticles {
-      flex-direction: column;
-    }
-    .newspaper {
-        column-count: 1;
-    }
 }
